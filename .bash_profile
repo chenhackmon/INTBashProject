@@ -1,5 +1,5 @@
-
-echo "Hello $(whoami)"
+username =$(whoami)
+echo "Hello $username"
 exprot COURSE_ID="__REPO_NAME__"
 
 
@@ -14,7 +14,7 @@ fi
 
 umask 006
 
-export PATH="$PATH:/home/$(whoami)/usercommands"
+export PATH="$PATH:/home/$username/usercommands"
 date -u +"%Y-%m-%dT%H:%M:%S+00:00"
 
 alias ltxt='ls *.txt'
