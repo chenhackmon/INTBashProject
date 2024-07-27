@@ -1,6 +1,6 @@
 username=$(whoami)
 echo "Hello $username"
-exprot COURSE_ID="__REPO_NAME__"
+export COURSE_ID="__REPO_NAME__"
 
 
 if [ -e "$HOME/.token" ]; then
