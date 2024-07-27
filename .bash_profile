@@ -1,6 +1,6 @@
 
 echo "Hello $(whoami)"
-exprot COURSE_ID="__REPO_Name__"
+exprot COURSE_ID="__REPO_NAME__"
 
 
 if [ -e "$HOME/.token" ]; then
