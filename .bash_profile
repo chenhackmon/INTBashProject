@@ -1,4 +1,4 @@
-username =$(whoami)
+username=$(whoami)
 echo "Hello $username"
 exprot COURSE_ID="__REPO_NAME__"
 
